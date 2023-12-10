@@ -28,7 +28,7 @@ https://github.com/snoou/Tree/tree/main/balansed
 ```
 [[]][][[]]
 ```
-#output 
+# output 
 ```
 True
 ```
