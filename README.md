@@ -18,3 +18,17 @@ A B D E H C F I J G
 Upon receiving the binary tree, it checks whether the value of each node is equal to the sum of the values ​​of its children.
 
 https://github.com/snoou/Tree/tree/main/Examining%20parent%20and%20child%20nodes
+
+# balansed 
+Checks the equivalents
+
+https://github.com/snoou/Tree/tree/main/balansed
+
+# input 
+```
+[[]][][[]]
+```
+#output 
+```
+True
+```
