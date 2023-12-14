@@ -32,3 +32,16 @@ https://github.com/snoou/Tree/tree/main/balansed
 ```
 True
 ```
+
+# Level_Tree
+tree level 
+
+https://github.com/snoou/Tree/tree/main/level_Tree
+# input 
+
+![input](https://github.com/snoou/Tree/blob/main/output.png?raw=true)
+
+# output 
+```
+4
+```
