@@ -45,3 +45,18 @@ https://github.com/snoou/Tree/tree/main/level_Tree
 ```
 4
 ```
+
+# Diagnosis of AVL
+Diagnosis of AVL
+
+https://github.com/snoou/Tree/tree/main/AVL
+
+# input 
+```
+Tree
+```
+
+# output 
+```
+True or False
+```
