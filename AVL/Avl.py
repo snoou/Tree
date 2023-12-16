@@ -18,12 +18,12 @@ def level (father):
 
 def avl (root):
     if not root :
-        return 0
+        return True
     
     avl_left = level (root.left)
     avl_right = level(root.right)
     
-    if (avl_right - avl_left) in (0 , 1 , -1):
+    if (avl_right - avl_left) in (0 , 1 , -1) and avl(root.left) and avl (root.right):
         return True
     return False 
     
