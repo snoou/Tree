@@ -60,3 +60,9 @@ Tree
 ```
 True or False
 ```
+
+# mirror 
+https://github.com/snoou/Tree/tree/main/mirror
+
+![input](https://raw.githubusercontent.com/snoou/Tree/main/mirror/trees-300x138.png)
+
