@@ -1,68 +1,120 @@
-# Tree
-building a tree with inorder and perorder.
+# 🌳 Tree Algorithms Collection
 
-https://github.com/snoou/Tree/tree/main/tree
+A collection of Python implementations related to binary trees, including building trees from traversals, checking tree properties, and visualizing outputs.
 
-# input
+---
+
+## 📌 Table of Contents
+
+- [1. Build Tree from Inorder and Preorder](#1-build-tree-from-inorder-and-preorder)
+- [2. Examine Parent and Child Nodes](#2-examine-parent-and-child-nodes)
+- [3. Balanced Bracket Checker](#3-balanced-bracket-checker)
+- [4. Tree Level (Height)](#4-tree-level-height)
+- [5. AVL Tree Diagnosis](#5-avl-tree-diagnosis)
+- [6. Mirror Tree](#6-mirror-tree)
+
+---
+
+## 1. Build Tree from Inorder and Preorder
+
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/tree)
+
+Builds a binary tree using **inorder** and **preorder** traversals.
+
+### ✅ Input
 ```
-D B H E A I F J C G
-A B D E H C F I J G
+Inorder: D B H E A I F J C G
+Preorder: A B D E H C F I J G
 ```
-# output
-
-![output](https://github.com/snoou/Tree/blob/main/output.png?raw=true)
 
 
+### 🖼️ Output
 
-# Examining parent and child nodes
-Upon receiving the binary tree, it checks whether the value of each node is equal to the sum of the values ​​of its children.
+![Tree Output](https://github.com/snoou/Tree/blob/main/output.png?raw=true)
 
-https://github.com/snoou/Tree/tree/main/Examining%20parent%20and%20child%20nodes
+---
 
-# balansed 
-Checks the equivalents
+## 2. Examine Parent and Child Nodes
 
-https://github.com/snoou/Tree/tree/main/balansed
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/Examining%20parent%20and%20child%20nodes)
 
-# input 
+Checks if each parent node's value is equal to the sum of its children in a binary tree.
+
+---
+
+## 3. Balanced Bracket Checker
+
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/balansed)
+
+Validates if a given string of brackets is balanced.
+
+### ✅ Input
 ```
 [[]][][[]]
 ```
-# output 
+
+### 🧾 Output
+
 ```
 True
 ```
 
-# Level_Tree
-tree level 
+---
 
-https://github.com/snoou/Tree/tree/main/level_Tree
-# input 
+## 4. Tree Level (Height)
 
-![input](https://github.com/snoou/Tree/blob/main/output.png?raw=true)
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/level_Tree)
 
-# output 
+Calculates the **height** (or levels) of the tree.
+
+### 🖼️ Input
+
+![Tree Image](https://github.com/snoou/Tree/blob/main/output.png?raw=true)
+
+### 🧾 Output
 ```
 4
 ```
 
-# Diagnosis of AVL
-Diagnosis of AVL
+---
 
-https://github.com/snoou/Tree/tree/main/AVL
+## 5. AVL Tree Diagnosis
 
-# input 
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/AVL)
+
+Checks whether the binary tree satisfies **AVL tree** balance conditions.
+
+### ✅ Input
 ```
 Tree
 ```
 
-# output 
+### 🧾 Output
 ```
 True or False
 ```
 
-# mirror 
-https://github.com/snoou/Tree/tree/main/mirror
+---
 
-![input](https://raw.githubusercontent.com/snoou/Tree/main/mirror/trees-300x138.png)
+## 6. Mirror Tree
 
+🔗 [View Code](https://github.com/snoou/Tree/tree/main/mirror)
+
+Generates the **mirror image** of a binary tree.
+
+### 🖼️ Input Example
+
+![Mirror Tree Input](https://raw.githubusercontent.com/snoou/Tree/main/mirror/trees-300x138.png)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/snoou/Tree.git
+cd Tree
+
+# Navigate to a folder and run the script
+cd tree
+python main.py
